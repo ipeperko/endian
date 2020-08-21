@@ -1,10 +1,11 @@
-language: cc
+language: c
 compiler:
   - gcc
   - clang
 
 install:
-  - cc -Wall -DUNIT_TEST -o endian endian.c
+  - ${CC} --version
+  - ${CC} -Wall -DUNIT_TEST -o endian endian.c
 
 script:
   - ./endian
