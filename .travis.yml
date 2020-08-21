@@ -1,0 +1,10 @@
+language: cc
+compiler:
+  - gcc
+  - clang
+
+install:
+  - cc -Wall -DUNIT_TEST -o test endian.c
+
+script:
+  - ./test
