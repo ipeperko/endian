@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/ipeperko/endian.svg?branch=master)](https://travis-ci.org/ipeperko/endian)
+
 # endian
 `endian` is a collection of byte-order aware routines written in C.  Unlike stream-oriented libraries that depend on a user-supplied method for reading and writing bytes, endian is optimized for reading from and writing between pointers in memory.
 
