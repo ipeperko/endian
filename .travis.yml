@@ -4,7 +4,6 @@ compiler:
   - clang
 
 install:
-  - ${CC} --version
   - ${CC} -Wall -DUNIT_TEST -o endian endian.c
 
 script:
